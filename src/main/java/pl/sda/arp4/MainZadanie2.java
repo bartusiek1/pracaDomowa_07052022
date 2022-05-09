@@ -17,7 +17,7 @@ public class MainZadanie2 {
         int b = scanner.nextInt();
 
         if (b < a) {
-            System.out.println("Błąd Podałeś błędne liczny");
+            System.out.println("Błąd Podałeś błędne liczby");
         }
             int suma = 0;
             for (int i = a; i <=b ; i++) {
