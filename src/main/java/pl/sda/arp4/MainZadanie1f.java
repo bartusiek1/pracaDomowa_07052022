@@ -4,9 +4,9 @@ package pl.sda.arp4;
 
 public class MainZadanie1f {
     public static void main(String[] args) {
-        for (int i = -101; i < 100; i++) {
-            if (i % 2 != 0)
-            System.out.print(i + 1 + ";");
+        for (int i = -101; i <= 100; i++) {
+            if (i % 2 == 0)
+            System.out.print(i + "; ");
             }
         }
     }

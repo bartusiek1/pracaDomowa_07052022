@@ -27,7 +27,7 @@ public class MainZadanieDomowe08052022_4 {
         int[] tablica = new int[5];
 
         for (int i = 0; i < tablica.length; i++) {
-            int wylosowanaLiczba = new Random().nextInt(48) + 1;
+            int wylosowanaLiczba = new Random().nextInt(49) + 1;
 
             tablica[i] = wylosowanaLiczba;
 
