@@ -17,6 +17,14 @@ public class MainZadanie3 {
         while (wynik < liczba){
             System.out.println(wynik);
             wynik = wynik * 2;
+
+            // opcja z pętlą for
+
+            // System.out.println("Podaj liczbę:");
+            // int liczba = scanner.nextInt();
+
+            // for (int wynik = 1; wynik < liczba; wynik *=2) {
+            // System.out.println(wynik);
         }
     }
 }
