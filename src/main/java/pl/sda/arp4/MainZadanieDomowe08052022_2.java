@@ -12,17 +12,16 @@ public class MainZadanieDomowe08052022_2 {
         int[] tablica = new int[5];
 
         for (int i = 0; i < tablica.length; i++) {
-            int podanaLiczba = scanner.nextInt();
+                System.out.println("Podaj liczbę:");
+                int podanaLiczba = scanner.nextInt();
 
-            System.out.println("Podaj liczbę:");
+                tablica[i] = podanaLiczba;
 
-            tablica[i] = podanaLiczba;
-
-            if (podanaLiczba <= 0) {
-                System.out.println("Błędna wartość");
-                i--;
+                if (podanaLiczba <= 0) {
+                    System.out.println("Błędna wartość");
+                    i--;
+                }
             }
-        }
 
             int maksimum = tablica[0];
 

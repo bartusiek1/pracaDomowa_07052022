@@ -35,14 +35,20 @@ public class MainZadanieDomowe08052022_4 {
             System.out.println();
         }
 
+        boolean odgadniętoLiczbe = false;
+
         for (int i = 0; i < tablica.length; i++) {
             if (tablica[i] == wskazanaLiczba) {
-                System.out.println(wskazanaLiczba + " jest wśród wygranych liczb!");
-            } else {
-                System.out.println(wskazanaLiczba + " niestety nie jest wśród wygranych liczb");
+                odgadniętoLiczbe = true;
             }
         }
+        if (odgadniętoLiczbe) {
+            System.out.println(wskazanaLiczba + " jest wśród wygranych liczb!");
+        } else {
+            System.out.println(wskazanaLiczba + " niestety nie jest wśród wygranych liczb");
+            }
+            }
     }
-}
+
 
 
